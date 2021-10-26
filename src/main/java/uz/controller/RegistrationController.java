@@ -1,4 +1,4 @@
-package uz.futbolteam.controller;
+package uz.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import uz.futbolteam.Service.UserService;
-import uz.futbolteam.domain.User;
+import uz.Service.UserService;
+import uz.domain.User;
 
 import javax.validation.Valid;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package uz.futbolteam.config;
+package uz.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

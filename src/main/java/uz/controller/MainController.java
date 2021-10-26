@@ -1,6 +1,5 @@
-package uz.futbolteam.controller;
+package uz.controller;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -13,10 +12,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-import uz.futbolteam.domain.Message;
-import uz.futbolteam.domain.User;
-import uz.futbolteam.repo.MessageRepo;
-import uz.futbolteam.repo.PlayerRepo;
+import uz.domain.Message;
+import uz.domain.User;
+import uz.repo.MessageRepo;
+import uz.repo.PlayerRepo;
 
 import javax.validation.Valid;
 import java.io.File;

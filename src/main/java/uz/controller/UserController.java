@@ -1,15 +1,14 @@
-package uz.futbolteam.controller;
+package uz.controller;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import uz.futbolteam.Service.UserService;
-import uz.futbolteam.domain.Role;
-import uz.futbolteam.domain.User;
+import uz.domain.Role;
+import uz.domain.User;
+import uz.Service.UserService;
 
 import java.util.Map;
 

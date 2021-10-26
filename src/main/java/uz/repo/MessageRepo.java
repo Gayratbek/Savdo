@@ -1,8 +1,7 @@
-package uz.futbolteam.repo;
+package uz.repo;
 
 import org.springframework.data.repository.CrudRepository;
-import uz.futbolteam.domain.Message;
-import uz.futbolteam.domain.Player;
+import uz.domain.Message;
 
 import java.util.List;
 

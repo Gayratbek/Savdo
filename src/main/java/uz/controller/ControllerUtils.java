@@ -1,4 +1,4 @@
-package uz.futbolteam.controller;
+package uz.controller;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

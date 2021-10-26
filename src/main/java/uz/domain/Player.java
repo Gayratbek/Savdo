@@ -1,4 +1,4 @@
-package uz.futbolteam.domain;
+package uz.domain;
 
 
 import javax.persistence.Entity;

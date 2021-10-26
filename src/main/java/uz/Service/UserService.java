@@ -1,4 +1,4 @@
-package uz.futbolteam.Service;
+package uz.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,9 +7,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-import uz.futbolteam.domain.Role;
-import uz.futbolteam.domain.User;
-import uz.futbolteam.repo.UserRepo;
+import uz.domain.Role;
+import uz.domain.User;
+import uz.repo.UserRepo;
 
 import java.util.*;
 import java.util.stream.Collectors;
