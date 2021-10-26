@@ -1,0 +1,17 @@
+uz\futbolteam\config\MailConfig.class
+uz\futbolteam\config\MvcConfig.class
+uz\futbolteam\domain\User.class
+uz\futbolteam\domain\Player.class
+uz\futbolteam\repo\UserRepo.class
+uz\futbolteam\repo\PlayerRepo.class
+uz\futbolteam\ServingWebContentApplication.class
+uz\futbolteam\controller\ControllerUtils.class
+uz\futbolteam\Service\UserService.class
+uz\futbolteam\controller\RegistrationController.class
+uz\futbolteam\domain\Message.class
+uz\futbolteam\repo\MessageRepo.class
+uz\futbolteam\controller\MainController.class
+uz\futbolteam\config\WebSecurityConfig.class
+uz\futbolteam\domain\Role.class
+uz\futbolteam\Service\mailSender.class
+uz\futbolteam\controller\UserController.class
